@@ -23,8 +23,8 @@ setup(
     description='Genome capture target coverage evaluation tool',
     long_description=(open('README.md').read()),
     keywords='bioinformatics',
-    url='https://github.com/vladsaveliev/TargQC',
-    download_url='https://github.com/vladsaveliev/TargQC/releases',
+    url='https://github.com/safary1094/TargQC',
+    download_url='https://github.com/safary1094/TargQC/releases',
     license='GPLv3',
     packages=find_packages(),
     package_data={

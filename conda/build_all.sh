@@ -18,7 +18,7 @@ function build() {
     local NAME=$1
     echo "Building $NAME";
 
-    CHANNELS="-c vladsaveliev -c bioconda -c defaults -c conda-forge"
+    CHANNELS="-c safary1094 -c bioconda -c defaults -c conda-forge"
     for PY in 3.6 2.7 ; do
         PACKAGE_PATH=$(conda build $NAME $CHANNELS --output --py $PY | tail -n1)
         if [ -f $PACKAGE_PATH ] ; then

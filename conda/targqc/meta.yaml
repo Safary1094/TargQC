@@ -5,7 +5,7 @@ package:
   version: "{{ version }}"
 
 source:
-  git_url: https://github.com/vladsaveliev/TargQC
+  git_url: https://github.com/safary1094/TargQC
   git_rev: master
 
 build:
@@ -42,7 +42,7 @@ test:
    - targqc --version
 
 about:
-  home: https://github.com/vladsaveliev/TargQC
+  home: https://github.com/safary1094/TargQC
   license: GNU General Public License v3 (GPLv3)
   summary: 'Target capture coverage QC'
   license_family: GPL3
